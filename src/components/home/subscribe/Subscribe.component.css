@@ -1,0 +1,63 @@
+.subscribe-container{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    padding: 30px 100px 40px 100px;
+    margin: 50px 300px;
+    background-color: rgb(245,120,71);
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.switch__circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #ecf0f3;
+    box-shadow: inset 8px 8px 12px #d1d9e6, inset -8px -8px 12px #f9f9f9;
+    bottom: -60%;
+    left: -60%;
+    transition: 1.25s;
+}
+.switch__circle img{
+    height: 200px;
+    opacity: 0.9;
+    padding: 20px;
+    margin: 40px;
+}
+.switch__circle--t {
+    z-index: 1;
+    top: -20%;
+    left: 85%;
+    width: 300px;
+    height: 300px;
+}
+.mail-icon{
+    padding: 0px;
+    margin-right: 0px;
+}
+.subscribe-container h1{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.subscribe-container .enter-your-email{
+    width: 80%;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    margin: 70px 0px 0px 40px;
+    padding: 0.7rem 2rem;
+}
+.subscribe-container .enter-your-email input{
+    width: 70%;
+    margin: auto;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+}
+.subscribe-container .enter-your-email .subscribe{
+    background-color: rgb(245,120,71);
+    padding: 10px 25px;
+    border-radius: 10px;
+}

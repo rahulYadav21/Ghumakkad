@@ -1,0 +1,11 @@
+.best-vacation-plan-container{
+    text-align: center;
+    margin: 100px 0px;
+    line-height: 2rem;
+}
+.best-vacation-plan-container .best-vacation-plan-heading h1{
+    font-size: 3rem;
+}
+.best-vacation-plan-container .best-vacation-plan-heading h1 span{
+    color: rgb( 245,120,71);
+}

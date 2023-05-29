@@ -1,0 +1,26 @@
+.what-people-say-about-us-container{
+    /* border: 2px solid red; */
+    padding: 150px 50px;
+    background-color: rgba(237, 237, 247, 0.568);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 0px;
+}
+.what-people-say-about-us-container .what-people-say-about-us-texts {
+    /* border: 2px solid royalblue; */
+    text-align: left;
+}
+.what-people-say-about-us-container .what-people-say-about-us-texts h1{
+    line-height: 3.5rem;
+    font-size: 3.5rem;
+}
+.what-people-say-about-us-container .what-people-say-about-us-texts h1 span{
+    color: rgb(245,120,71);
+}
+.what-people-say-about-us-container .what-people-say-about-us-comments{
+    padding: 0px;
+    margin: 0px;
+    width: 35%;
+    /* border: 2px solid rebeccapurple; */
+}

@@ -1,0 +1,80 @@
+.comment-cards {
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 30px;
+    line-height: 1rem;
+    width: 35%;
+    margin: 0px;
+    top: 4000px;
+    position: absolute;
+    padding: 10px 40px;
+    text-align: left;
+    transition: 2s;
+}
+
+.comment-cards img{
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    border-radius: 50%;
+    right: 0px;
+}
+.comment-cards .comment{
+    width: 86%;
+}
+.card0 {
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px grey;
+  }
+  .card1{
+    top: 4030px;
+    left: 850px;
+    box-shadow: 0px 0px 10px 1px grey;
+    opacity: 0.7;
+    z-index: 0;
+  }
+
+  .add-animation{
+    animation: top;
+    animation-duration: 1s;
+    animation-fill-mode: forward;
+  }
+
+  @keyframes top {
+    from{
+        top:4030px;
+        left: 850px;
+        opacity: 0.7;
+        z-index: 0;
+    }
+    to{
+        top:4000px;
+        left: 806px;
+        opacity: 1;
+        z-index: 2;
+    }
+  }
+
+
+.next-prev-comments {
+    border: 1px solid rgb(245, 120, 71);
+    border-radius: 50%;
+    padding: 0px 10px 3px 10px;
+    background-color: white;
+    color: rgb(245, 120, 71);
+    margin: 0px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    margin: 10px;
+    position: relative;
+    top: 110px;
+    right: 690px;
+}
+
+.next-prev-comments:hover {
+    background-color: rgb(245, 120, 71);
+    color: white;
+    transform: scale(1.2);
+}

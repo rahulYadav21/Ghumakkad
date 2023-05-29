@@ -1,0 +1,38 @@
+.page3-container {
+    /* border: 2px solid red; */
+    margin: 50px 0px 0px 0px ;
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(248, 244, 244);
+}
+
+.page3-container .page3-heading h1{
+    font-size: 3rem;
+}
+.page3-container .page3-heading h1 span{
+    color: rgb( 245, 120, 71);
+}
+.page3-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.signup-icon {
+    color: rgb(245, 120, 71);
+}
+
+.wallet-icon {
+    color: rgb(59, 59, 230);
+}
+
+.travel-icon{
+    color: rgb(207, 207, 123);
+}
+.cards {
+    border-radius: 15px;
+    width: 25%;
+    margin: 50px;
+    text-align: left;
+    padding: 40px;
+    background-color: white;
+}

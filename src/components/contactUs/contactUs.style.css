@@ -1,0 +1,44 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.handshake-icon .icon{
+    border: 2px solid black;
+    background-color: purple;
+    font-size: 8rem;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+.lets-travel-together{
+    margin: 80px;
+}
+.contact-cards{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 113%;
+    justify-content: space-evenly;
+    background-color: rgb(227, 227, 227);
+    padding: 100px 50px;
+}
+.contact-info{
+    /* border: 1px solid black; */
+    padding: 20px 80px;
+    background-color: white;
+}
+.contact-info h2{
+    /* border: 1px solid red; */
+    background-color: rgb(234, 234, 1);
+    border-radius: 30px;
+    padding: 5px 5px;
+    font-size: 1.3rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.contact-cards .sub-heading{
+    color: rebeccapurple;
+    text-align: left;
+}

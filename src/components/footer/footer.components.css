@@ -1,0 +1,56 @@
+footer{
+    display: flex;
+    margin: 100px 140px;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.social-media-links{
+    /* border: 2px solid red; */
+    text-align: left;
+    align-self: center;
+}
+.social-media-links .links{
+    display: flex;
+    justify-content: space-between;
+}
+.social-media-links .links .social-icons{
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0px 0px 3px 1px grey;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    font-size: 2rem;
+}
+.social-media-links .links .social-icons:hover{
+    transform: scale(1.2);
+    background-color: rgb(245,120,71);
+}
+.company-contact-more{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+}
+.company-list ,.contact-list, .more-list{
+    display: flex;
+    flex-direction: column;
+}
+.main-button{
+    margin: 10px;
+    font-size: 1.1rem;
+    color: black;
+}
+.sub-buttons{
+    margin: 10px;
+    font-size: 15px;
+    color: grey;
+}
+.copywrite{
+    padding: 0px;
+    margin: 10px 0px;
+    text-align: center;
+    
+}

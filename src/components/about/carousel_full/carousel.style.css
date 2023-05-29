@@ -1,0 +1,23 @@
+header{
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+header button{
+    background-color: rgba(0,0,0,0);
+}
+.carousel{
+    background-color: rgb(239, 240, 241);
+    height: 400px;
+    z-index: -2;
+}
+.carousel-main{
+    position: absolute;
+    top: -84px;
+    z-index: -1;
+}
+.carousel img{
+    height: 600px;
+}
+.d-block {
+    height: 38vh;
+}

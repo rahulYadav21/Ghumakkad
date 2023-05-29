@@ -1,0 +1,13 @@
+.ExclusiveDealsAndDiscounts-container {
+    text-align: center;
+    margin: 200px 0px;
+    line-height: 2rem;
+}
+
+.ExclusiveDealsAndDiscounts-container .ExclusiveDealsAndDiscounts-heading h1 {
+    font-size: 3rem;
+}
+
+.ExclusiveDealsAndDiscounts-container .ExclusiveDealsAndDiscounts-heading h1 span {
+    color: rgb(245, 120, 71);
+}

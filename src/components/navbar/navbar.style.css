@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    background-color: rgba(0,0,0,0);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 140px;
+}
+
+header .logo-main img{
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    z-index: 1;
+}
+button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    font-weight: 550;
+}
+
+button a{
+    text-decoration: none;
+    color:black;
+}
+.nav-options {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-signup{
+    display: flex;
+    align-items: center;
+}
+
+.login-signup button{
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+.login {
+    color: rgb(245, 120, 71);
+}
+
+.signup {
+    color: white;
+    background-color: rgb(245, 120, 71);
+}

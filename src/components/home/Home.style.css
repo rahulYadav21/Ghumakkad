@@ -1,0 +1,67 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 50px 250px;
+    
+}
+.left-home-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid yellowgreen; */
+    align-items: flex-start;
+}
+.left-home-section h1{
+    font-size: 3.5rem;
+    line-height:4rem;
+}
+.left-home-section span{
+    color: rgb( 245, 120, 71);
+}
+
+.left-home-section p{
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.left-home-section .discover-now{
+    color: rgb( 245, 120, 71);
+    border: 2px solid rgb( 245, 120, 71);
+    border-radius: 5px;
+    padding: 20px ;
+    font-size: 1.2rem;
+    margin: 20px 0px 0px 0px;
+    transition: 0.9s;
+}
+.left-home-section .discover-now:hover{
+    color: white;
+    background-color: rgb( 245, 120, 71);
+}
+
+.right-home-section{
+    /* border: 2px solid black; */
+    width: 50%; 
+}
+.right-home-section img{
+    width: 125%;
+    /* border: 2px solid green; */
+    height: 100%;
+}
+
+
+.knowAboutUs-gallery-buttons{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: flex-end;
+}
+.knowAboutUs-gallery-buttons button{
+    background-color: rgb( 245, 120, 71);
+    border-radius: 10px;
+    border: 2px solid rgb( 245, 120, 71);
+    padding: 16px 30px;
+    color: white;
+    font-size: 1rem;
+    margin: 0px 360px 0px 0px;
+}
+
